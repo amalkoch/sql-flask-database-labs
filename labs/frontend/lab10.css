@@ -1,0 +1,36 @@
+body {
+  background-color: #FFFF00;
+}
+
+h2 {
+  color: #0000FF;
+  text-align: center;
+}
+
+h1 {
+  color: red;
+  background-color: gray;
+}
+
+.problem {
+  color: green;
+  background-color: black;
+  font-weight: bold;
+}
+
+.normal {
+  background-color: white;
+  width: 200px;
+}
+
+.different {
+  color: blue;
+  font-weight: bold;
+  background-color: white;
+}
+
+.same {
+  color: blue;
+  font-weight: bold;
+  background-color: white;
+}
