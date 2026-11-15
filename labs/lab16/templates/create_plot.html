@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>Flask App with Image</title>
+</head>
+<body>
+<h1>Flask App with Image</h1>
+<form method="POST" action="/">
+<button type="submit">Run Flask</button>
+</form>
+<br><br>
+{% if img_uri %}
+<img src="{{ img_uri }}">
+{% endif %}
+</body>
+</html>
+

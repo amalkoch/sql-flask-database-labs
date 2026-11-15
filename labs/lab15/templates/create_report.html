@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Customer Invoice Report</title>
+</head>
+<body>
+<h1>Customer Invoice Report</h1>
+<form method="POST">
+<label for="last_name">Last Name:</label>
+<input type="text" id="last_name" name="last_name">
+<input type="submit" value="Get Report">
+</form>
+{% if customer_invoice_info %}
+<h1>Customer Invoice Report</h1>
+<h2>{{ customer_invoice_info | safe }}</h2>
+{% endif %}
+</body>
+</html>
+

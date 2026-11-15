@@ -1,0 +1,9 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8"><title>Products Inventory</title></head>
+  <body>
+    <h1>Products Inventory – Bar Chart</h1>
+    <form method="post"><button type="submit">Generate Plot</button></form>
+    {% if chart_image %}<br><img src="{{ chart_image }}">{% endif %}
+  </body>
+</html>

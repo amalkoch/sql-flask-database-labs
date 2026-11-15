@@ -1,0 +1,9 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8"><title>Employee Degree Distribution</title></head>
+  <body>
+    <h1>Employee Degree Distribution – Line Chart</h1>
+    <form method="post"><button type="submit">Generate Plot</button></form>
+    {% if chart_image %}<br><img src="{{ chart_image }}">{% endif %}
+  </body>
+</html>
