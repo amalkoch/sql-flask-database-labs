@@ -1,0 +1,59 @@
+
+<html>
+<head>
+    <title>Reg form</title>
+</head>
+<body>
+    <form method="POST">
+        <table>
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" name="fName"/></td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" name="lName"/></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="text" name="pass"/></td>
+            </tr>
+            <tr>
+                <td colspan='4'>Select gender:<br/>
+                    Male:<input type="radio" name="gender" value="male"/>
+                    Female:<input type="radio" name="gender" value="female"/>
+                </td>
+            </tr>
+            <tr>
+                <td colspan='4'>Select favorite sport:<br/>
+                    basketball:<input type="checkbox" name="sport" value="basketball"/>
+                    football:<input type="checkbox" name="sport" value="football"/>
+                    golf:<input type="checkbox" name="sport" value="golf"/>
+                    Tennis:<input type="checkbox" name="sport" value="tennis"/>
+                </td>
+            </tr>
+            <tr>
+                <td colspan='4'>Select favorite junk food:<br/>
+                    <select name="junk" size="2">
+                        <option value="kitkat">Kitkat</option>
+                        <option value="twix">Twix</option>
+                        <option value="snickers">Snickers</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan='4'>
+                    Enter your feedback:<br/>
+                    <textarea name="feedback" rows="5" cols="20">We value your feedback</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan='4'>
+                    <input type="submit" name="sub" value="log in"/>
+                    <input type="reset" name="erase" value="Clear"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
