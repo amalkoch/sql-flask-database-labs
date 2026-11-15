@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add New Customer</title>
+</head>
+<body>
+  <h1>Add New Customer</h1>
+
+  <form method="POST">
+    <label>First Name:</label>
+    <input type="text" name="customer_first_name"><br><br>
+
+    <label>Last Name:</label>
+    <input type="text" name="customer_last_name"><br><br>
+
+    <label>Gender:</label>
+    <input type="radio" name="customer_gender" value="M">Male
+    <input type="radio" name="customer_gender" value="F">Female<br><br>
+
+    <label>Date of Birth:</label>
+    <input type="text" name="customer_dob" placeholder="YYYY-MM-DD"><br><br>
+
+    <input type="submit" value="Add Customer">
+  </form>
+
+  {% if message %}
+    <h3>{{ message|safe }}</h3>
+  {% endif %}
+</body>
+</html>

@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>Employee Information</title>
+</head>
+<body>
+<h1>Employee Information</h1>
+<form method="POST">
+<label>Last Name:</label>
+<input type="text" name="last_name">
+<input type="submit" value="Get Employee">
+</form>
+{% if employee_info %}
+<h1>Employee Details</h1>
+<h2>{{ employee_info | safe }}</h2>
+{% endif %}</body></html>
